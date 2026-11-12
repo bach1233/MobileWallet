@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 1. KHUNG NỀN TRẮNG BO GÓC CHUẨN (RADIUS ~20%) -->
+    <item>
+        <shape android:shape="rectangle">
+            <size android:width="108dp" android:height="108dp" />
+            <solid android:color="#FFFFFF" />
+            <corners android:radius="22dp" />
+        </shape>
+    </item>
+
+    <!-- 2. SỬ DỤNG ẢNH 144px CHO ICON APP NGOÀI MÀN HÌNH (CĂN GIỮA, CHUẨN KÍCH THƯỚC) -->
+    <item
+        android:gravity="center">
+        <bitmap
+            android:src="@drawable/ic_launcher_144"
+            android:gravity="center"
+            android:filter="true"
+            android:mipMap="true" />
+    </item>
+</layer-list>

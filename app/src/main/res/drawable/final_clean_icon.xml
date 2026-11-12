@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 1. KHUNG NỀN TRẮNG BO GÓC CHUẨN (RADIUS ~20%) -->
+    <item>
+        <shape android:shape="rectangle">
+            <size android:width="108dp" android:height="108dp" />
+            <solid android:color="#FFFFFF" />
+            <corners android:radius="22dp" />
+        </shape>
+    </item>
+
+    <!-- 2. SỬ DỤNG ẢNH MỚI (512x512) CĂN CHỈNH LẤP ĐẦY KHUNG CHUYÊN NGHIỆP -->
+    <item
+        android:gravity="center"
+        android:top="2dp"
+        android:bottom="2dp"
+        android:left="2dp"
+        android:right="2dp">
+        <bitmap
+            android:src="@drawable/ic_playstore_512"
+            android:gravity="center"
+            android:filter="true"
+            android:mipMap="true" />
+    </item>
+</layer-list>

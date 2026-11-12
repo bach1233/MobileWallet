@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MobiWallet</string>
+    <string name="login_title">Security Lab Bank</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Đăng nhập</string>
+    <string name="hint_creds">Lab: admin / Admin@123</string>
+    <string name="premium">Mở khóa Premium</string>
+    <string name="api_test">Gọi API (SSL Pinning)</string>
+    <string name="refresh_checks">Chạy lại kiểm tra bảo mật</string>
+    <string name="logout">Đăng xuất</string>
+</resources>

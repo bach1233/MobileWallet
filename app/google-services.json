@@ -1,0 +1,67 @@
+{
+  "project_info": {
+    "project_number": "1089798067411",
+    "project_id": "androidsecuritylab",
+    "storage_bucket": "androidsecuritylab.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1089798067411:android:7b5b82c65a6b050a057026",
+        "android_client_info": {
+          "package_name": "vn.hvktmm.bach.securitylab.hardened.debug"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzc9zvSHTTqGRrh5vtRDkPuoWXkcllb8o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1089798067411:android:127c4db62b0dfbbd057026",
+        "android_client_info": {
+          "package_name": "vn.hvktmm.bach.securitylab.vulnerable"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzc9zvSHTTqGRrh5vtRDkPuoWXkcllb8o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1089798067411:android:c1b3011798946b42057026",
+        "android_client_info": {
+          "package_name": "vn.hvktmm.bach.securitylab.vulnerable.debug"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzc9zvSHTTqGRrh5vtRDkPuoWXkcllb8o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

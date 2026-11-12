@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 1. Nền trắng bo góc chuẩn đét (giống VNPT GoSafe) -->
+    <item>
+        <shape android:shape="rectangle">
+            <size android:width="108dp" android:height="108dp" />
+            <solid android:color="#FFFFFF" />
+            <corners android:radius="22dp" />
+        </shape>
+    </item>
+
+    <!-- 2. Ảnh ví gốc của bạn (Căn giữa, lấp đầy khung, giữ nguyên chi tiết) -->
+    <item
+        android:gravity="center">
+        <bitmap
+            android:src="@drawable/mobi_wallet_pro_v4"
+            android:gravity="center"
+            android:filter="true"
+            android:mipMap="true" />
+    </item>
+</layer-list>

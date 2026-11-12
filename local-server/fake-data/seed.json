@@ -1,0 +1,7 @@
+{
+  "accounts": [
+    {"username": "alice", "password": "alice123", "balance": 10000000},
+    {"username": "admin", "password": "admin123", "balance": 99000000}
+  ],
+  "recipients": ["Bob", "Charlie", "Test Merchant"]
+}

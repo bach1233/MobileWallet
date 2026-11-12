@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    android:orientation="vertical">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        app:elevation="4dp">
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbarAllServices"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:navigationIcon="?attr/homeAsUpIndicator">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tất cả dịch vụ"
+                android:textColor="@color/primary"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!-- NHÓM 1: THANH TOÁN -->
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Chuyển tiền &amp; Thanh toán" android:textStyle="bold" android:textColor="@color/text" android:textSize="16sp" />
+            <GridLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:columnCount="4">
+                <include layout="@layout/item_service_small" />
+                <include layout="@layout/item_service_small" />
+                <include layout="@layout/item_service_small" />
+                <include layout="@layout/item_service_small" />
+            </GridLayout>
+
+            <!-- NHÓM 2: VIỄN THÔNG -->
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24dp" android:text="Dịch vụ viễn thông" android:textStyle="bold" android:textColor="@color/text" android:textSize="16sp" />
+            <GridLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:columnCount="4">
+                <include layout="@layout/item_service_small" />
+                <include layout="@layout/item_service_small" />
+                <include layout="@layout/item_service_small" />
+            </GridLayout>
+
+            <!-- NHÓM 3: GIẢI TRÍ -->
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24dp" android:text="Giải trí &amp; Mua sắm" android:textStyle="bold" android:textColor="@color/text" android:textSize="16sp" />
+            <GridLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:columnCount="4">
+                <include layout="@layout/item_service_small" />
+                <include layout="@layout/item_service_small" />
+                <include layout="@layout/item_service_small" />
+                <include layout="@layout/item_service_small" />
+            </GridLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
